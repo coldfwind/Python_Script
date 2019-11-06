@@ -16,7 +16,7 @@ def mail():
         #   邮件正文内容
         # msg = MIMEMultipart()     #发送邮件副本需要创建这个实例
         text = 'test.test'
-        subject = "Monit TD_dynamic AutoTrade"
+        subject = "TSET"
         msg = MIMEText(text, 'plain', 'utf-8')
         msg['From'] = formataddr(["TEN-SERVE", Mail_user])          #发送者
         msg['To'] = ','.join(receive)                             #接受者
